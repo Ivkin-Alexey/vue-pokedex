@@ -1,15 +1,12 @@
 <template>
-    <PokemonList/>
+
+    <router-view></router-view>
 </template>
 
 <script>
-    import PokemonList from "@/components/PokemonList";
 
 export default {
   name: 'App',
-    components: {
-      PokemonList
-    }
 }
 </script>
 
