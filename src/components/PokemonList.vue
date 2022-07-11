@@ -1,5 +1,4 @@
 <template>
-    <router-link to="/caught">Caught pokemons</router-link>
     <ul class="pokemonList">
         <PokemonItem
                 v-for="pokemon of pokemons"
