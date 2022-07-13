@@ -1,6 +1,7 @@
 import * as VueRouter from 'vue-router'
 import PokemonList from "@/components/PokemonList"
 import CaughtPokemonList from "@/components/CaughtPokemonList"
+import PokemonCard from "@/components/PokemonCard";
 
 const routes = [
     {
@@ -10,6 +11,11 @@ const routes = [
     {
         path: '/сaught',
         component: CaughtPokemonList
+    },
+    {
+        path: '/pokemon/:name',
+        name: 'pokemonCard',
+        component: PokemonCard
     }
 ]
 
